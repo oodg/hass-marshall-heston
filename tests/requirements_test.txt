@@ -1,0 +1,2 @@
+pytest-homeassistant-custom-component>=0.13.170
+aioresponses>=0.7.6
