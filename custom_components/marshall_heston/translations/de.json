@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Marshall Heston verbinden",
+        "description": "Gib die IP-Adresse deiner Heston-Soundbar ein.",
+        "data": {
+          "host": "IP-Adresse"
+        }
+      },
+      "zeroconf_confirm": {
+        "title": "Heston gefunden",
+        "description": "Soll die Soundbar \"%{name}\" hinzugefügt werden?"
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zur Soundbar fehlgeschlagen",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "not_heston": "Kein Marshall-Heston-Gerät",
+      "cannot_connect": "Verbindung zur Soundbar fehlgeschlagen",
+      "unknown": "Unerwarteter Fehler",
+      "already_configured": "Gerät ist bereits konfiguriert"
+    }
+  },
+  "entity": {
+    "select": {
+      "source": {
+        "name": "Quelle"
+      },
+      "sound_mode": {
+        "name": "Sound-Modus"
+      }
+    },
+    "number": {
+      "bass": {
+        "name": "Bass"
+      },
+      "treble": {
+        "name": "Höhen"
+      }
+    },
+    "button": {
+      "preset_1": {
+        "name": "Preset 1"
+      },
+      "preset_2": {
+        "name": "Preset 2"
+      },
+      "preset_3": {
+        "name": "Preset 3"
+      },
+      "pause": {
+        "name": "Pause"
+      }
+    },
+    "sensor": {
+      "player": {
+        "name": "Player"
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "marshall_heston",
+  "name": "Marshall Heston",
+  "codeowners": ["@oodg"],
+  "config_flow": true,
+  "documentation": "https://github.com/oodg/hass-marshall-heston",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/oodg/hass-marshall-heston/issues",
+  "version": "0.1.0",
+  "zeroconf": ["_googlecast._tcp.local."]
+}

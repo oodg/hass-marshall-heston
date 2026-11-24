@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Marshall Heston",
+        "description": "Enter the IP address of your Heston soundbar.",
+        "data": {
+          "host": "IP address"
+        }
+      },
+      "zeroconf_confirm": {
+        "title": "Heston discovered",
+        "description": "Add the soundbar \"%{name}\"?"
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the soundbar",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "not_heston": "Not a Marshall Heston device",
+      "cannot_connect": "Failed to connect to the soundbar",
+      "unknown": "Unexpected error",
+      "already_configured": "Device is already configured"
+    }
+  },
+  "entity": {
+    "select": {
+      "source": {
+        "name": "Source"
+      },
+      "sound_mode": {
+        "name": "Sound mode"
+      }
+    },
+    "number": {
+      "bass": {
+        "name": "Bass"
+      },
+      "treble": {
+        "name": "Treble"
+      }
+    },
+    "button": {
+      "preset_1": {
+        "name": "Preset 1"
+      },
+      "preset_2": {
+        "name": "Preset 2"
+      },
+      "preset_3": {
+        "name": "Preset 3"
+      },
+      "pause": {
+        "name": "Pause"
+      }
+    },
+    "sensor": {
+      "player": {
+        "name": "Player"
+      }
+    }
+  }
+}
